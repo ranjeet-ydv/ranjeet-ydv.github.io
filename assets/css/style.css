@@ -183,8 +183,10 @@
         transform: none;
         animation: fadeIn 1s ease-in-out forwards;
     }
-    .hero-image img {
+    .hero-image {
         width: 100%;
+        margin-top: 100px;
+        
     }
 }
 
