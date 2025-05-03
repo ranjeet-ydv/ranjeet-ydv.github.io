@@ -125,7 +125,7 @@
 }
 
 .hero-text .btn {
-    background-color: #ff4f5a;
+    background-color: #000000;
     color: white;
     padding: 12px 24px;
     text-decoration: none;
@@ -216,7 +216,7 @@
     line-height: 1.6;
     font-weight: 500;
 }
-
+ 
 .about-image {
     width: 80%;
     max-width: 350px;
@@ -316,9 +316,7 @@
     background-color: white;
     font-family: "Poppins", sans-serif;
     padding: 50px 30px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
-    max-width: 900px;
+    max-width: 1100px;
     margin: 40px auto;
 }
 
@@ -373,11 +371,7 @@
 .projects {
     background-color: white;
     font-family: "Poppins", sans-serif;
-    padding: 50px 30px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
-    max-width: 900px;
-    margin: 40px auto;
+    padding: 50px 30px;    
     text-align: center;
 }
 
