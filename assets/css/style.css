@@ -3,7 +3,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 15px 50px;
-    background-color: #000000;
+    background-color: #121212;
 }
 .logo img {
     width: 70px;
@@ -90,7 +90,7 @@
 }
 
 .hero-section {
-    background: linear-gradient(180deg, #000000, #ffffff);
+    background-color: #121212;
     color: white;
     height: 100vh;
     display: flex;
@@ -125,7 +125,7 @@
 }
 
 .hero-text .btn {
-    background-color: #000000;
+    background-color: #121212;
     color: white;
     padding: 12px 24px;
     text-decoration: none;
@@ -145,7 +145,8 @@
 }
 
 .hero-text .btn:hover {
-    background-color: #d14048;
+    background-color: #00FFAA;
+    color: #121212;
 }
 
 .hero-image {
@@ -196,7 +197,7 @@
 }
 
 .about-me {
-    color: rgb(0, 0, 0);
+    background-color: #121212;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -205,14 +206,14 @@
 
 .about-text h2 {
     font-size: 2rem;
-    color: #333;
+    color: #FFFFFF;
     margin-bottom: 15px;
     position: relative;
 }
 
 .about-text p {
     font-size: 1.2rem;
-    color: #555;
+    color: #E0E0E0;
     line-height: 1.6;
     font-weight: 500;
 }
@@ -224,7 +225,7 @@
     width: 100%;
     max-width: 400px;
     border-radius: 15px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 10px 30px rgba(255, 255, 255, 0.3);
     filter: drop-shadow(0 0 10px rgb(39, 38, 38));
     filter: contrast(100%) brightness(100%) saturate(120%);
     filter: grayscale(20%) contrast(120%);
@@ -313,11 +314,9 @@
 
 
 .experience {
-    background-color: white;
+    background-color: #121212;
     font-family: "Poppins", sans-serif;
     padding: 50px 30px;
-    max-width: 1100px;
-    margin: 40px auto;
 }
 
 .experience h2 {
@@ -369,7 +368,7 @@
 }
 
 .projects {
-    background-color: white;
+    background-color: #121212;
     font-family: "Poppins", sans-serif;
     padding: 50px 30px;    
     text-align: center;
@@ -401,8 +400,8 @@
     width: 100%;
     max-height: 200px;
     object-fit: cover;
-    border-radius: 10px;
     margin-bottom: 15px;
+    border: 1px solid rgb(201, 199, 199);
 }
 
 .project h3 {
@@ -438,6 +437,10 @@
     .project {
         max-width: 100%;
     }
+}
+
+.contact {
+    background-color: #121212;
 }
 
 .contact div {
