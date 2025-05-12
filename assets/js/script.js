@@ -38,3 +38,50 @@ function navHover() {
     });
 }
 document.addEventListener("DOMContentLoaded", navHover);
+
+
+function addSkillCard(id, data) {
+    const container = document.getElementById(id);
+    
+    data.forEach(skill => {
+        const card = document.createElement("div");
+        card.className = "skill-card";
+        const img = document.createElement("img");
+        img.src = skill.icon;
+        img.alt = skill.name;
+        img.className = "skill-icon";
+        const text = document.createElement("p");
+        text.textContent = skill.name;
+        card.appendChild(img);
+        card.appendChild(text);
+        container.appendChild(card);
+    });
+}
+  
+  // Add Front-End data
+  const frontEnd = [{
+    name: "HTML",
+    icon: "assets/icons/html.png"
+  },
+  {
+    name: "CSS",
+    icon: "assets/icons/css.png"
+  },
+  {
+    name: "Bootstrap",
+    icon: "assets/icons/bootstrap.png"
+  },
+  {
+    name: "JavaScript",
+    icon: "assets/icons/javascript.png"
+  },
+  {
+    name: "jQuery",
+    icon: "assets/icons/jquery.png"
+  },
+  {
+    name: "React",
+    icon: "assets/icons/react.png"
+  }
+];
+addSkillCard("rkyFrontEnd", frontEnd);
