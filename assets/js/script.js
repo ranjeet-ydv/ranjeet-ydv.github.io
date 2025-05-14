@@ -114,3 +114,27 @@ const backEnd = [{
   }
 ];
 addSkillCard("rkyBackEnd", backEnd);
+
+// Databases & Data Handling
+const databases = [{
+    name: "MySQL",
+    icon: "assets/icons/mysql.png"
+  },
+  {
+    name: "SQLite",
+    icon: "assets/icons/sqlite.png"
+  },
+  {
+    name: "MongoDB",
+    icon: "assets/icons/mongodb.png"
+  },
+  {
+    name: "JSON",
+    icon: "assets/icons/json.png"
+  },
+  {
+    name: "Pickle",
+    icon: "assets/icons/package.png"
+  }
+];
+addSkillCard("rkyDatabases", databases);
