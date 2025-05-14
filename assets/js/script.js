@@ -58,7 +58,7 @@ function addSkillCard(id, data) {
     });
 }
   
-  // Add Front-End data
+  // Front-End Skills data
   const frontEnd = [{
     name: "HTML",
     icon: "assets/icons/html.png"
@@ -85,3 +85,32 @@ function addSkillCard(id, data) {
   }
 ];
 addSkillCard("rkyFrontEnd", frontEnd);
+
+
+// Back-End Skills data
+const backEnd = [{
+    name: "Node.js",
+    icon: "assets/icons/nodejs.png"
+  },
+  {
+    name: "Express.js",
+    icon: "assets/icons/expressjs.png"
+  },
+  {
+    name: "Flask",
+    icon: "assets/icons/flask.png"
+  },
+  {
+    name: "PHP",
+    icon: "assets/icons/php.png"
+  },
+  {
+    name: "RESTful APIs",
+    icon: "assets/icons/restapi.png"
+  },
+  {
+    name: "FastAPI",
+    icon: "assets/icons/fastapi.svg"
+  }
+];
+addSkillCard("rkyBackEnd", backEnd);
