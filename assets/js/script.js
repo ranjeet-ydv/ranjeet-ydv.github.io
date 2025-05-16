@@ -110,13 +110,16 @@ const backEnd = [{
   },
   {
     name: "FastAPI",
-    icon: "assets/icons/fastapi.svg"
+    icon: "assets/icons/fastapi.png"
   }
 ];
 addSkillCard("rkyBackEnd", backEnd);
 
 // Databases & Data Handling
 const databases = [{
+    name: "SQL",
+    icon: "assets/icons/sql.png"
+  },{
     name: "MySQL",
     icon: "assets/icons/mysql.png"
   },
@@ -138,3 +141,43 @@ const databases = [{
   }
 ];
 addSkillCard("rkyDatabases", databases);
+
+// Databases & Data Handling
+const tools = [{
+    name: "Git",
+    icon: "assets/icons/git.png"
+  },
+  {
+    name: "GitHub",
+    icon: "assets/icons/github.png"
+  },
+  {
+    name: "Postman",
+    icon: "assets/icons/postman.png"
+  },,
+  {
+    name: "Figma",
+    icon: "assets/icons/figma.png"
+  },
+  {
+    name: "FileZilla",
+    icon: "assets/icons/filezilla.png"
+  },
+  {
+    name: "Bitvise",
+    icon: "assets/icons/bitvise.png"
+  },
+  {
+    name: "PortX",
+    icon: "assets/icons/portx.png"
+  },
+  {
+    name: "PyInstaller",
+    icon: "assets/icons/package.png"
+  },
+  {
+    name: "GoDaddy",
+    icon: "assets/icons/godaddy.png"
+  }
+];
+addSkillCard("rkyTools", tools);
